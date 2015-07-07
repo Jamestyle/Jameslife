@@ -134,14 +134,17 @@ body {
 	margin-left: 20px;
 }
 #gallery-header-center-right{
-	float: right;
+	/*float: right;*/
+	position:absolute;
+	/*top:10px;*/
+	right:20px;
 	height: 35px;
 	margin-top: 32px;
 	line-height: 35px;
 }
 .gallery-header-center-right-links {
 	color: #333333;
-	float: left;
+	/*float: left;*/
 	height: 35px;
 	padding-right: 20px;
 	padding-left: 20px;
@@ -176,7 +179,8 @@ body {
 }
 .gallery-content-center-full {
 	float: left;
-	width: 100%;
+	width: 85%;
+	margin-top:32px;
 }
 #gallery-content-center img {
 	width: 300px;
